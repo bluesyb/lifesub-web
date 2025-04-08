@@ -1,0 +1,69 @@
+.app-container {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #F9FAFC;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.fee-image {
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.subscription-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.subscription-logo-sm {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.subscription-logo-lg {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.category-item {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.category-item:hover {
+  transform: translateY(-4px);
+}
+
+.recommend-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.recommend-card:hover {
+  transform: translateY(-4px);
+}
+
+.swipe-container {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 8px 0;
+}
+
+.swipe-container::-webkit-scrollbar {
+  display: none;
+}
